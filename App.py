@@ -19,10 +19,7 @@ class IGDown():
         # var 
         urlIG = StringVar()
         userNameIG = StringVar()
-        ig = Instaloader()
-
-
-
+       
         #intruksi
         intruksi = Label(root, text="Url Post", font=("Raleway",10, "bold"))
         intruksi.grid(row=1, column=2)
@@ -63,10 +60,6 @@ class IGDown():
         self.linkUrl = Entry(root,
             textvariable=urlIG, width=25)
         self.linkUrl.grid(row=2, column=2 )
-
-        # self.userNa = Entry(root, 
-        #     textvariable=urlIG, width=25)
-        # self.linkUrl.grid(row=2, column=2 )
 
         #Button Sumbit 
         self.btnSumbit = Button(root, text="Sumbit", command=Urlink,
