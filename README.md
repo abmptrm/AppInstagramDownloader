@@ -7,7 +7,7 @@
  
 **Windows**  
 **$ pip install tkinter**  
-**$ pip3 install webbrowser**  
+**$ pip install webbrowser**  
 
 
 
